@@ -1,0 +1,178 @@
+[
+    {
+        "id": 1,
+        "title": "The Whispering Shadows",
+        "author": "A. L. Green",
+        "is_fiction": true,
+        "rating": 4.5,
+        "book_cover": "https://m.media-amazon.com/images/I/41922hVAemL.jpg",
+        "tags": [
+            "Mystery",
+            "Thriller"
+        ],
+        "number_of_pages": 320,
+        "publisher": "Mystic Books",
+        "year_of_publishing": 2022,
+        "review": "A gripping mystery that kept me on the edge of my seat. The plot twists were unexpected and the characters well-developed. Highly recommended for anyone who loves a good thriller!"
+    },
+    {
+        "id": 2,
+        "title": "The Science of Tomorrow",
+        "author": "Dr. Jane Doe",
+        "is_fiction": false,
+        "rating": 4.2,
+        "book_cover": "https://m.media-amazon.com/images/I/61Rik+FTffL._AC_UF1000,1000_QL80_.jpg",
+        "tags": [
+            "Science",
+            "Non-fiction"
+        ],
+        "number_of_pages": 250,
+        "publisher": "Future Insights",
+        "year_of_publishing": 2021,
+        "review": "An insightful look into future scientific advancements. The author does a great job explaining complex concepts in an accessible way. A must-read for science enthusiasts and those curious about the future of technology."
+    },
+    {
+        "id": 3,
+        "title": "The Enchanted Forest",
+        "author": "M. E. Rivers",
+        "is_fiction": true,
+        "rating": 4.7,
+        "book_cover": "https://www.creativeparamita.com/wp-content/uploads/2023/02/Enchanted-Forest.jpg",
+        "tags": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "number_of_pages": 350,
+        "publisher": "Fantasy Tales",
+        "year_of_publishing": 2020,
+        "review": "A magical journey through a fantastical world. The world-building is superb, and the storyline is enchanting. The characters are memorable, making this a truly immersive experience."
+    },
+    {
+        "id": 4,
+        "title": "Cooking Made Simple",
+        "author": "Chef Liam Smith",
+        "is_fiction": false,
+        "rating": 4.8,
+        "book_cover": "https://marketplace.canva.com/EAFK_7GQdBQ/1/0/1003w/canva-gray-dark-contemporary-modern-photo-cookbook-recipe-book-cover-rImuYf0Dit4.jpg",
+        "tags": [
+            "Cookbook",
+            "Lifestyle"
+        ],
+        "number_of_pages": 180,
+        "publisher": "Culinary Press",
+        "year_of_publishing": 2023,
+        "review": "Easy-to-follow recipes that make cooking a breeze. Perfect for beginners and experts alike. The book is beautifully illustrated with step-by-step instructions that are easy to understand."
+    },
+    {
+        "id": 5,
+        "title": "The Silent City",
+        "author": "Nina Patel",
+        "is_fiction": true,
+        "rating": 4.3,
+        "book_cover": "https://mmbcreative.com/app/uploads/2023/01/51ltkmphuWL.jpg",
+        "tags": [
+            "Dystopian",
+            "Drama"
+        ],
+        "number_of_pages": 400,
+        "publisher": "Urban Reads",
+        "year_of_publishing": 2019,
+        "review": "A thought-provoking novel set in a dystopian future. The storyline is compelling and the characters are deeply engaging. It raises important questions about society and human nature."
+    },
+    {
+        "id": 6,
+        "title": "Ancient Civilizations",
+        "author": "Professor John Black",
+        "is_fiction": false,
+        "rating": 4.6,
+        "book_cover": "https://m.media-amazon.com/images/I/71pD2uRQ3jL._AC_UF1000,1000_QL80_.jpg",
+        "tags": [
+            "History",
+            "Educational"
+        ],
+        "number_of_pages": 350,
+        "publisher": "History Press",
+        "year_of_publishing": 2022,
+        "review": "An in-depth exploration of ancient cultures. Richly detailed and informative, this book provides a fascinating glimpse into the past. A valuable resource for history buffs and students alike."
+    },
+    {
+        "id": 7,
+        "title": "The Last Stand",
+        "author": "S. J. Parker",
+        "is_fiction": true,
+        "rating": 4.4,
+        "book_cover": "https://cdn2.penguin.com.au/covers/original/9780099521242.jpg",
+        "tags": [
+            "Action",
+            "Thriller"
+        ],
+        "number_of_pages": 290,
+        "publisher": "Action Reads",
+        "year_of_publishing": 2021,
+        "review": "Non-stop action and suspense from start to finish. The pacing is perfect, keeping you hooked until the very end. A thrilling read that action lovers will not want to miss."
+    },
+    {
+        "id": 8,
+        "title": "Understanding Quantum Mechanics",
+        "author": "Dr. Emily Wilson",
+        "is_fiction": false,
+        "rating": 4.1,
+        "book_cover": "https://media.springernature.com/full/springer-static/cover-hires/book/978-3-030-85939-8",
+        "tags": [
+            "Science",
+            "Educational"
+        ],
+        "number_of_pages": 270,
+        "publisher": "Quantum Press",
+        "year_of_publishing": 2020,
+        "review": "A complex subject made accessible. The author breaks down quantum mechanics into manageable chunks, making it easier to understand. Great for anyone looking to delve into the world of quantum physics."
+    },
+    {
+        "id": 9,
+        "title": "Love and Light",
+        "author": "Rachel Adams",
+        "is_fiction": true,
+        "rating": 4.9,
+        "book_cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1699051969i/201522974.jpg",
+        "tags": [
+            "Romance",
+            "Drama"
+        ],
+        "number_of_pages": 320,
+        "publisher": "Romance Reads",
+        "year_of_publishing": 2023,
+        "review": "A beautiful love story that tugs at the heartstrings. Exceptionally well-written, with characters that are deeply relatable. A moving and emotional journey that stays with you long after you finish reading."
+    },
+    {
+        "id": 10,
+        "title": "The Art of Meditation",
+        "author": "K. L. Nguyen",
+        "is_fiction": false,
+        "rating": 4.7,
+        "book_cover": "https://m.media-amazon.com/images/I/81x8RD2r4RL._AC_UF1000,1000_QL80_.jpg",
+        "tags": [
+            "Self-help",
+            "Spirituality"
+        ],
+        "number_of_pages": 200,
+        "publisher": "Mindful Press",
+        "year_of_publishing": 2022,
+        "review": "A peaceful guide to meditation techniques. The book provides practical advice and exercises to help you achieve inner calm and mindfulness. Highly beneficial for those seeking a deeper understanding of meditation."
+    },
+    {
+        "id": 1,
+        "title": "The Great Escape",
+        "author": "T. R. Lewis",
+        "is_fiction": true,
+        "rating": 4.6,
+        "book_cover": "https://www.pen-and-sword.co.uk/assets/img/jackets/large/16651.jpg",
+        "tags": [
+            "Adventure",
+            "Action"
+        ],
+        "number_of_pages": 330,
+        "publisher": "Adventure Books",
+        "year_of_publishing": 2021,
+        "review": "An exhilarating adventure with unexpected twists. The plot is fast-paced and exciting, keeping you on the edge of your seat. A must-read for anyone who loves a good adventure story."
+    }
+]
