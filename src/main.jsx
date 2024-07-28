@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 
 import {
@@ -29,7 +28,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/book_details/:id",
-        element: <BookDetails></BookDetails>
+        loader: () => fetch('books.json'),
+        element: <BookDetails ></BookDetails>
       },
       {
         path: "/pages_to_read",
