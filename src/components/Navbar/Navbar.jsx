@@ -39,7 +39,7 @@ const Navbar = () => {
                         {navbarItems}
                     </ul>
                 </div>
-                <div className="navbar-end gap-3">
+                <div className="navbar-end gap-3 lg:flex hidden">
                     <a className="btn bg-[#23BE0D] hover:bg-[#23BE0D] border-none text-white px-7">Sign in</a>
                     <a className="btn bg-[#59C5D2] hover:bg-[#59C5D2]  border-none text-white px-7">Sign up</a>
                 </div>
