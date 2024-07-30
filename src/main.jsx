@@ -11,11 +11,13 @@ import ListedBooks from './components/ListedBooks/ListedBooks.jsx';
 import PagesToRead from './components/PagesToRead/PagesToRead.jsx';
 import Root from './components/Root/Root.jsx';
 import BookDetails from './components/BookDetails/BookDetails.jsx';
+import Error404 from './components/Error404/Error404.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement: <Error404></Error404>,
     children: [
       {
         path: "/",
