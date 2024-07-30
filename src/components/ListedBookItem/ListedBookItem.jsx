@@ -7,7 +7,7 @@ const ListedBookItem = ({ book }) => {
     // console.log(book);
 
     return (
-        <div className="border rounded-2xl grid grid-cols-5 pl-6 py-6 mt-4">
+        <div className="border rounded-2xl grid lg:grid-cols-5 gap-4 pl-6 py-6 mt-4">
             <div className="flex items-center">
                 <div className="bg-[#F3F3F3] w-56 h-56 rounded-2xl flex justify-center items-center">
                     <img className="h-44" src={book_cover} alt="" />
@@ -27,7 +27,7 @@ const ListedBookItem = ({ book }) => {
                     <p>Page: {number_of_pages}</p>
                 </div>
                 <hr className="my-2" />
-                <div className="flex gap-2 py-2">
+                <div className="flex gap-2 py-2 flex-col sm:flex-row">
                     <div className="px-4 py-2 rounded-3xl bg-[#E1EDFF] text-[#499AFF]">Category: {is_fiction ? "Fiction" : "Non Fiction"}</div>
                     <div className="px-4 py-2 rounded-3xl bg-[#FFF3E0] text-[#FFB549]">Rating: {rating}</div>
                     <div onClick={() => { navigate(`/book_details/${id}`) }} className="btn px-4 py-1 rounded-3xl bg-[#23BE0D] hover:bg-[#23BE0D] text-white">View Details</div>
