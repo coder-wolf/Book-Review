@@ -32,7 +32,7 @@ const Navbar = () => {
                             {navbarItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-2xl font-bold">Book Vibe</a>
+                    <Link to="/" className="btn btn-ghost text-2xl font-bold">Book Vibe</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-8">
@@ -40,8 +40,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-3">
-                    <a className="btn bg-[#23BE0D] border-none text-white px-7">Sign in</a>
-                    <a className="btn bg-[#59C5D2] border-none text-white px-7">Sign up</a>
+                    <a className="btn bg-[#23BE0D] hover:bg-[#23BE0D] border-none text-white px-7">Sign in</a>
+                    <a className="btn bg-[#59C5D2] hover:bg-[#59C5D2]  border-none text-white px-7">Sign up</a>
                 </div>
             </div>
         </div>

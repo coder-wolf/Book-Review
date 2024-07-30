@@ -7,12 +7,12 @@ const BooksGalleryTile = ({ book }) => {
 
     const navigate = useNavigate();
 
-    const handleNavigateToDetailsPage = (id) => {
-        navigate(`/book_details/${id}`);
+    const handleNavigate = (id) => {
+        navigate(`/book_details/${id}`, { state: book });
     }
 
     return (
-        <div onClick={() => { handleNavigateToDetailsPage(id) }}>
+        <div onClick={() => { handleNavigate(id) }}>
             <div className="card bg-base-100 border">
                 <figure className="px-10 pt-10">
                     <div className="bg-[#F3F3F3] w-full h-max p-4 py-8 rounded-xl flex justify-center">
